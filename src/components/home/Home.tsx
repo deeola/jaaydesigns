@@ -1,11 +1,10 @@
 import React, { FC } from "react";
-import Header from "../shared/Header";
+import Header from "./Header";
 
 const Home: FC = () => {
   return (
     <div className="home">
       <Header />
-      <div className="navLine"></div>
     </div>
   );
 };

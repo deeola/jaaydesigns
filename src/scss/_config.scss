@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+img {
+  display: block;
+  width: 100%;
+}
 //fonts
 
 $source-sans: "Source Sans Pro", sans-serif;
@@ -17,5 +21,5 @@ $voltaire: "Voltaire", sans-serif;
 //colors
 
 $logo-Orange: #d04526;
-$primary-blue: #2e3788;
-$button-orange: #e05c5c;
+$primary-blue: #090938;
+$button-orange: #c76000;
