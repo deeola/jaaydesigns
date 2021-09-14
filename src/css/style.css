@@ -130,7 +130,7 @@ header nav .navIons {
   width: 95%;
   justify-content: space-between;
   margin: 20px auto;
-  height: 600px;
+  height: 700px;
 }
 
 .home .heroContainer .heroText {
@@ -180,4 +180,81 @@ header nav .navIons {
 
 .home .heroContainer .heroImage img {
   height: 100%;
+}
+
+/*Main*/
+.main {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.main .shopby {
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  color: #090938;
+  text-align: center;
+  font-weight: 700;
+  margin: 10px 0px;
+}
+
+.main .collectionscontainer {
+  width: 95%;
+  height: 700px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(7, 1fr);
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+}
+
+.main .collectionscontainer .couture {
+  grid-column: 1;
+  grid-row: 1/4;
+  position: relative;
+  background-image: url("../images/hero2.jpg");
+  background-color: rosybrown;
+  background-size: cover;
+}
+
+.main .collectionscontainer .kiddies {
+  grid-column: 1/2;
+  grid-row: 4/8;
+  position: relative;
+  background-image: url("../images/jaaykiddies.jpg");
+  background-color: #301a1a;
+  background-size: cover;
+}
+
+.main .collectionscontainer .bridals {
+  grid-row: 1/8;
+  grid-column: 2;
+  position: relative;
+  background-color: skyblue;
+  background-image: url("../images/photo2.jpg");
+  background-size: cover;
+}
+
+.main .collectionscontainer .shopjaay {
+  position: absolute;
+  bottom: 20px;
+  background-color: rgba(13, 13, 44, 0.747);
+  width: 100%;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 0px;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.main .newcontainer {
+  margin-top: 30px;
+  width: 95%;
+  margin: auto;
+}
+
+.main .newcontainer .shopbynew {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
