@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Voltaire&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+//fonts
+
+$source-sans: "Source Sans Pro", sans-serif;
+$playfair: "Playfair Display", serif;
+$voltaire: "Voltaire", sans-serif;
+
+//colors
+
+$logo-Orange: #d04526;
+$primary-blue: #2e3788;
+$button-orange: #e05c5c;

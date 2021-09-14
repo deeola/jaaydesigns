@@ -1,1 +1,113 @@
+@import "config";
 
+header {
+  width: 95%;
+  margin: auto;
+  font-family: $source-sans;
+  nav {
+    padding-top: 20px;
+    .firstNavContainer {
+      .upperNavDiv {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+
+        p {
+          font-size: 30px;
+          font-family: $voltaire;
+          color: $logo-Orange;
+          font-weight: 700;
+        }
+
+        .searchContainer {
+          height: 30px;
+          display: flex;
+          align-items: center;
+          border: 1px solid $primary-blue;
+          width: 23%;
+          justify-content: space-between;
+
+          input {
+            padding: 5px 10px;
+            border: none;
+            outline: none;
+          }
+
+          .searchbox {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            i {
+              font-size: 20px;
+              padding: 5px;
+              cursor: pointer;
+              background-color: $primary-blue;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+
+    .navlist {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 32px;
+
+      ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 92%;
+
+        li {
+          list-style: none;
+          display: flex;
+          position: relative;
+
+          a {
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: 600;
+            color: $primary-blue;
+            transition: 0.3s ease-in;
+
+            &:hover {
+              color: $button-orange;
+            }
+          }
+        }
+      }
+
+      .cartDiv {
+        i {
+          font-size: 20px;
+          color: $primary-blue;
+
+          transition: 0.3s ease-in;
+          cursor: pointer;
+
+          &:hover {
+            color: $button-orange;
+          }
+        }
+      }
+    }
+
+    .navIons {
+      display: none;
+    }
+  }
+}
+
+.home {
+  .navLine {
+    content: "";
+    width: 100%;
+    height: 5px;
+    background-color: $primary-blue;
+    margin-top: 20px;
+  }
+}

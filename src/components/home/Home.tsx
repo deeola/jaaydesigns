@@ -3,8 +3,9 @@ import Header from "../shared/Header";
 
 const Home: FC = () => {
   return (
-    <div>
+    <div className="home">
       <Header />
+      <div className="navLine"></div>
     </div>
   );
 };

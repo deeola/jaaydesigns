@@ -1,1 +1,116 @@
-/* No CSS */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Voltaire&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 95%;
+  margin: auto;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+header nav {
+  padding-top: 20px;
+}
+
+header nav .firstNavContainer .upperNavDiv {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav .firstNavContainer .upperNavDiv p {
+  font-size: 30px;
+  font-family: "Voltaire", sans-serif;
+  color: #d04526;
+  font-weight: 700;
+}
+
+header nav .firstNavContainer .upperNavDiv .searchContainer {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #2e3788;
+  width: 23%;
+  justify-content: space-between;
+}
+
+header nav .firstNavContainer .upperNavDiv .searchContainer input {
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+}
+
+header nav .firstNavContainer .upperNavDiv .searchContainer .searchbox {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+header nav .firstNavContainer .upperNavDiv .searchContainer .searchbox i {
+  font-size: 20px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: #2e3788;
+  color: white;
+}
+
+header nav .navlist {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 32px;
+}
+
+header nav .navlist ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 92%;
+}
+
+header nav .navlist ul li {
+  list-style: none;
+  display: flex;
+  position: relative;
+}
+
+header nav .navlist ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #2e3788;
+  transition: 0.3s ease-in;
+}
+
+header nav .navlist ul li a:hover {
+  color: #e05c5c;
+}
+
+header nav .navlist .cartDiv i {
+  font-size: 20px;
+  color: #2e3788;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+header nav .navlist .cartDiv i:hover {
+  color: #e05c5c;
+}
+
+header nav .navIons {
+  display: none;
+}
+
+.home .navLine {
+  content: "";
+  width: 100%;
+  height: 5px;
+  background-color: #2e3788;
+  margin-top: 20px;
+}
