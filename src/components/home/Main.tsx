@@ -5,6 +5,7 @@ import jaaykiddies from "../../images/jaaykiddies.jpg";
 import jaaybridals from "../../images/photo2.jpg";
 import kimono from "../../images/photo1.jpg";
 import tisetop from "../../images/photo4.jpg";
+import Subscribe from "./Subscribe";
 
 const Main = () => {
   return (
@@ -129,6 +130,7 @@ const Main = () => {
           </div>
         </div>
       </section>
+      <Subscribe />
     </div>
   );
 };
