@@ -364,3 +364,81 @@ header nav .navIons {
 .subscribe form button:hover {
   background-color: #101064;
 }
+
+.footer {
+  background-color: #090938;
+  margin-top: 70px;
+  font-family: "Source Sans Pro", sans-serif;
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+}
+
+.footer .leftsideControl {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.footer .leftsideControl p {
+  color: white;
+}
+
+.footer .leftsideControl .footerlogo {
+  font-size: 30px;
+  font-family: "Voltaire", sans-serif;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.footer .rightsideControl {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.footer .rightsideControl .officecardContol .officehours .officehoursheader {
+  color: white;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.footer .rightsideControl .officecardContol .officehours div p {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.footer .rightsideControl .officecardContol .cardsupport {
+  display: flex;
+  margin-top: 30px;
+}
+
+.footer .rightsideControl .officecardContol .cardsupport img {
+  width: 6%;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.footer .rightsideControl .socials .socialicons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+.footer .rightsideControl .socials .socialicons a {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.footer .rightsideControl .socials .socialicons a img {
+  width: 100%;
+}
+
+.footer .rightsideControl .socials p {
+  color: white;
+  margin-bottom: 10px;
+}

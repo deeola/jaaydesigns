@@ -352,3 +352,88 @@ header {
     }
   }
 }
+
+.footer {
+  background-color: $primary-blue;
+  margin-top: 70px;
+  font-family: $source-sans;
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+
+  .leftsideControl {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+
+    p {
+      color: white;
+    }
+
+    .footerlogo {
+      font-size: 30px;
+      font-family: $voltaire;
+      color: white;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+  }
+
+  .rightsideControl {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+
+    .officecardContol {
+      .officehours {
+        .officehoursheader {
+          color: white;
+          font-weight: 900;
+          margin-bottom: 20px;
+        }
+
+        div {
+          p {
+            margin-bottom: 10px;
+            color: white;
+          }
+        }
+      }
+
+      .cardsupport {
+        display: flex;
+        margin-top: 30px;
+
+        img {
+          width: 6%;
+          margin-right: 15px;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .socials {
+      .socialicons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 40%;
+        margin-bottom: 20px;
+
+        a {
+          margin-right: 10px;
+          cursor: pointer;
+          img {
+            width: 100%;
+          }
+        }
+      }
+
+      p {
+        color: white;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
