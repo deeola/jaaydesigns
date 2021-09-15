@@ -11,16 +11,25 @@ const Main = () => {
     <div className="main">
       <div className="shopby">SHOP BY COLLECTIONS</div>
       <section className="collectionscontainer">
-        <div className="couture">
+        <div
+          className="couture"
+          style={{ backgroundImage: `url(${jaaycouture})` }}
+        >
           {/* <img src={jaaycouture} alt="jaay couturess" /> */}
           <div className="shopjaay">SHOP JAAYCOUTURE</div>
         </div>
-        <div className="kiddies">
+        <div
+          className="kiddies"
+          style={{ backgroundImage: `url(${jaaykiddies})` }}
+        >
           {/* <img src={jaaykiddies} alt="jaay kiddiess" /> */}
           <div className="shopjaay">SHOP JAAYKiddies</div>
         </div>
 
-        <div className="bridals">
+        <div
+          className="bridals"
+          style={{ backgroundImage: `url(${jaaybridals})` }}
+        >
           {/* <img src={jaaybridals} alt="jaay bridalss" /> */}
           <div className="shopjaay">SHOP JAAYBRIDALS</div>
         </div>
@@ -29,22 +38,24 @@ const Main = () => {
       <section className="newcontainer">
         <div className="shopbynew">
           <div className="newDivControl">
-            <div className="newImageContainer">
-              <img src={pinafore} alt="sweet pinafore" />
+            <div
+              className="newImageContainer"
+              style={{ backgroundImage: `url(${pinafore})` }}
+            >
+              {/* <img src={pinafore} alt="sweet pinafore" /> */}
             </div>
             <div className="newTextControl">
               <div className="newTextControlRight">
-                <p>Sweet Pinafore</p>
-                <p>€90.00</p>
-                <div>
-                  <div className="blue"></div>
-                  <div className="red"></div>
-                  <div className="green"></div>
-                </div>
+                <p className="productName">Sweet Pinafore</p>
+                <p className="productPrice">€90.00</p>
               </div>
               <div className="newTextControlleft">
-                <p>DETAILS</p>
-                <select name="sizeselect" id="sizeselect">
+                <p className="productDetails">DETAILS</p>
+                <select
+                  name="sizeselect"
+                  id="sizeselect"
+                  className="productSize"
+                >
                   <option value="">Size</option>
                   <option value="">1</option>
                   <option value="">2</option>
@@ -54,25 +65,27 @@ const Main = () => {
                 </select>
               </div>
             </div>
-            <div>ADD TO CART</div>
+            <div className="addtocart">ADD TO CART</div>
           </div>
           <div className="newDivControl">
-            <div className="newImageContainer">
-              <img src={kimono} alt="sweet pinafore" />
+            <div
+              className="newImageContainer"
+              style={{ backgroundImage: `url(${kimono})` }}
+            >
+              {/* <img src={kimono} alt="sweet pinafore" /> */}
             </div>
             <div className="newTextControl">
               <div className="newTextControlRight">
-                <p>Olivia's Kimono</p>
-                <p>€90.00</p>
-                <div>
-                  <div className="blue"></div>
-                  <div className="red"></div>
-                  <div className="green"></div>
-                </div>
+                <p className="productName">Olivia's Kimono</p>
+                <p className="productPrice">€90.00</p>
               </div>
               <div className="newTextControlleft">
-                <p>DETAILS</p>
-                <select name="sizeselect" id="sizeselect">
+                <p className="productDetails">DETAILS</p>
+                <select
+                  name="sizeselect"
+                  id="sizeselect"
+                  className="productSize"
+                >
                   <option value="">Size</option>
                   <option value="">1</option>
                   <option value="">2</option>
@@ -82,25 +95,27 @@ const Main = () => {
                 </select>
               </div>
             </div>
-            <div>ADD TO CART</div>
+            <div className="addtocart">ADD TO CART</div>
           </div>
           <div className="newDivControl">
-            <div className="newImageContainer">
-              <img src={tisetop} alt="sweet pinafore" />
+            <div
+              className="newImageContainer"
+              style={{ backgroundImage: `url(${tisetop})` }}
+            >
+              {/* <img src={tisetop} alt="sweet pinafore" /> */}
             </div>
             <div className="newTextControl">
               <div className="newTextControlRight">
-                <p>Tise's Top and Trouser</p>
-                <p>€90.00</p>
-                <div>
-                  <div className="blue"></div>
-                  <div className="red"></div>
-                  <div className="green"></div>
-                </div>
+                <p className="productName">Tise's Top and Trouser</p>
+                <p className="productPrice">€90.00</p>
               </div>
               <div className="newTextControlleft">
-                <p>DETAILS</p>
-                <select name="sizeselect" id="sizeselect">
+                <p className="productDetails">DETAILS</p>
+                <select
+                  className="productSize"
+                  name="sizeselect"
+                  id="sizeselect"
+                >
                   <option value="">Size</option>
                   <option value="">1</option>
                   <option value="">2</option>
@@ -110,7 +125,7 @@ const Main = () => {
                 </select>
               </div>
             </div>
-            <div>ADD TO CART</div>
+            <div className="addtocart">ADD TO CART</div>
           </div>
         </div>
       </section>

@@ -211,7 +211,6 @@ header nav .navIons {
   grid-column: 1;
   grid-row: 1/4;
   position: relative;
-  background-image: url("../images/hero2.jpg");
   background-color: rosybrown;
   background-size: cover;
 }
@@ -220,7 +219,6 @@ header nav .navIons {
   grid-column: 1/2;
   grid-row: 4/8;
   position: relative;
-  background-image: url("../images/jaaykiddies.jpg");
   background-color: #301a1a;
   background-size: cover;
 }
@@ -230,7 +228,6 @@ header nav .navIons {
   grid-column: 2;
   position: relative;
   background-color: skyblue;
-  background-image: url("../images/photo2.jpg");
   background-size: cover;
 }
 
@@ -255,6 +252,74 @@ header nav .navIons {
 }
 
 .main .newcontainer .shopbynew {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  justify-content: space-between;
+}
+
+.main .newcontainer .shopbynew .newDivControl {
+  width: 32%;
+}
+
+.main .newcontainer .shopbynew .newDivControl .newImageContainer {
+  background-size: cover;
+  height: 300px;
+}
+
+.main .newcontainer .shopbynew .newDivControl .newTextControl {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main .newcontainer .shopbynew .newDivControl .newTextControl .productName {
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.main .newcontainer .shopbynew .newDivControl .newTextControl .productPrice {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.main .newcontainer .shopbynew .newDivControl .newTextControl .newTextControlleft {
+  width: 30%;
+}
+
+.main .newcontainer .shopbynew .newDivControl .newTextControl .productDetails {
+  margin-bottom: 10px;
+  border: 1px solid #090938;
+  padding: 5px 20px;
+  text-align: center;
+  border-radius: 4px;
+  width: 100%;
+  font-weight: 600;
+}
+
+.main .newcontainer .shopbynew .newDivControl .newTextControl .productSize {
+  padding: 10px 7px;
+  width: 100%;
+  background-color: #090938;
+  color: white;
+  outline: none;
+  border: none;
+  font-size: 17px;
+}
+
+.main .newcontainer .shopbynew .newDivControl .addtocart {
+  background-color: #090938;
+  color: white;
+  margin: 10px 0px;
+  padding: 10px 0px;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s ease-in;
+  border-radius: 4px;
+}
+
+.main .newcontainer .shopbynew .newDivControl .addtocart:hover {
+  background-color: #101064;
 }
